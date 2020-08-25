@@ -1,0 +1,26 @@
+title: Prologue
+---
+Today, I’m going to play with Dooley, my best friend!
+He hasn’t been feeling well recently...
+He’s always been a bit gloomy, but lately it feels like he has become sadder and sadder...
+I heard that he’s being bullied at his school.
+He’s just a bit shyer than other and he happens to like books better than football!
+So what? Kids are so mean!
+I’m going to cheer him up!
+Dooley has arrived! I have to go meet him!
+
+<<set_image Image Prologue/img2>>
+<<wait 1>>
+Hm, I wonder why he is looking at the ground...
+I’ll go now and ask him!
+
+<<set_image Image Prologue/img3>>
+<<wait 1>>
+Dooley? He’s not here… Where did he go?
+Oh, there’s a hole in the ground! Was it here yesterday?
+It’s so dark, let me look closer!
+
+<<set_image Image Prologue/img4>>
+<<wait 1>>
+What? Someone pushed me? AHHHHHH!
+===

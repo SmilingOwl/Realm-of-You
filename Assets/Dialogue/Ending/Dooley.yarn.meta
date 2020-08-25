@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 9235abda420c8f14eb3576e44c4bf183
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Dooley-DooleyEncounter-0
+  - Dooley-DooleyEncounter-1
+  - Dooley-DooleyEncounter-2
+  - Dooley-DooleyEncounter-3
+  - Dooley-DooleyEncounter-4
+  - Dooley-DooleyEncounter-5
+  - Dooley-DooleyEncounter-6
+  - Dooley-DooleyEncounter-7
+  - Dooley-DooleyEncounter-8
+  - Dooley-DooleyEncounter-9
+  - Dooley-DooleyEncounter-10
+  - Dooley-DooleyEncounter-11
+  - Dooley-DooleyRemembers-12
+  - Dooley-DooleyRemembers-13
+  - Dooley-DooleyRemembers-14
+  - Dooley-DooleyRemembers-15
+  - Dooley-DooleyRemembers-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

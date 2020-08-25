@@ -1,0 +1,67 @@
+title: MiniGame2.Intro
+---
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You idiot, you thought about those objects being in the trash, didn't you?
+Mr. Guardian: Now many trash bins have arrived in Realm of You!
+
+<<set_color DialogueRunner blue>>
+Athy: Ups! But what matters is that the objects are here!
+Athy: I'll definitely find them!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Ugh! The trash bins smell really bad, Realm of You is a land of happiness and dreams, it can’t smell bad.
+Mr. Guardian: I'm getting rid of them!
+
+<<set_color DialogueRunner blue>>
+Athy: No! I need to find those objects.
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You’ll never find them among the trash. I’m sending the trash bins away now.
+
+<<set_color DialogueRunner blue>>
+Athy: Please, Mr. Guardian, give me just a bit of time!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Ugh! Fine! You have 15 seconds. No more, no less! After 15 seconds, the trash bins are gone!
+
+<<set_color DialogueRunner blue>>
+Athy: Thank you, Mr. Guardian.
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: It’s not like you’ll be able to find them anyway…
+
+<<set_color DialogueRunner blue>>
+Athy: Don't be such a pessimist! I'll show you!
+
+<<end_initial_dialogue DialogueRunner>>
+===
+
+title: MiniGame2.FoundGlasses
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: I found Doodley’s glasses!
+<<else>>
+Athy: I found Dooley’s glasses!
+<<endif>>
+<<wait 1>>
+===
+
+title: MiniGame2.NothingFound
+---
+<<set_color DialogueRunner blue>>
+Athy: Hmm... There’s nothing here!
+<<wait 1>>
+===
+
+title: MiniGame2.FoundDress
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: I found Doodley’s mommy’s red dress!
+<<else>>
+Athy: I found Dooley’s mommy’s red dress!
+<<endif>>
+<<wait 1>>
+===

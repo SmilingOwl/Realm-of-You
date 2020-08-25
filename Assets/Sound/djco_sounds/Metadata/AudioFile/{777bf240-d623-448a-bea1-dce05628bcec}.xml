@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{777bf240-d623-448a-bea1-dce05628bcec}">
+		<property name="assetPath">
+			<value>MainTheme_BELL HUGE.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>53.783999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81aca7cd-a215-42bf-826a-6dabf8204ffc}</destination>
+		</relationship>
+	</object>
+</objects>

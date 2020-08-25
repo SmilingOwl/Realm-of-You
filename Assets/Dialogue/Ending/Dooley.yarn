@@ -1,0 +1,170 @@
+title: DooleyEncounter
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Doodley! I’m so glad I finally found you!
+
+<<set_color DialogueRunner green>>
+Doodley: Who are you?
+<<else>>
+Athy: Dooley! I’m so glad I finally found you!
+
+<<set_color DialogueRunner green>>
+Dooley: Who are you?
+<<endif>>
+
+
+<<set_color DialogueRunner blue>>
+Athy: It’s me, Athy! Your best friend in the world!
+
+<<set_color DialogueRunner green>>
+
+<<if $call_doodley>>
+Doodley: Athy? I don’t know any Athy...
+<<else>>
+Dooley: Athy? I don’t know any Athy...
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: He doesn’t remember you! You probably never meant that much to him!
+
+<<set_color DialogueRunner blue>>
+Athy: No! He’ll definitely remember me!
+<<if $call_doodley>>
+Athy: Doodley, please come back! Let’s go back to the real world!
+<<else>>
+Athy: Dooley, please come back! Let’s go back to the real world!
+<<endif>>
+
+<<set_color DialogueRunner green>>
+<<if $call_doodley>>
+Doodley: Real world? I don’t know what that is!
+Doodley: Can you go away? You’re bothering me!
+<<else>>
+Dooley: Real world? I don’t know what that is!
+Dooley: Can you go away? You’re bothering me!
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: (I need to make him realize that he wants to live in the real world.)
+Athy: (My words, the words of someone he doesn’t recognize, are not enough.)
+Athy: (Whose words can persuade him?)
+
+<<set_variable DialogueRunner show_diary_page true>>
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: DooleyRemembers
+---
+
+<<set_variable DialogueRunner show_diary_page false>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Doodley... Look at this.
+<<set_color DialogueRunner green>>
+Doodley: Stop bothering me!
+<<else>>
+Athy: Dooley... Look at this.
+<<set_color DialogueRunner green>>
+Dooley: Stop bothering me!
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: Since you love reading so much, please read this! I won't bother you anymore after that!
+
+<<set_color DialogueRunner green>>
+<<if $call_doodley>>
+Doodley: Fine!
+<<wait 1>>
+<<take_damage DialogueRunner -40>>
+Doodley: Athy?
+Doodley: Athy! I remember!
+Doodley: I’m so sorry for running away! I want to go back!
+<<else>>
+Dooley: Fine!
+<<wait 1>>
+<<take_damage DialogueRunner -40>>
+Dooley: Athy?
+Dooley: Athy! I remember!
+Dooley: I’m so sorry for running away! I want to go back!
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Yes! I really missed you, Doodley! Let’s go back to our world!
+Athy: We’ll be together forever! We need to find the way back!
+
+<<set_color DialogueRunner green>>
+<<if $call_doodley>>
+Doodley: Yes, the way ba... Wait... What did you just call me?
+<<else>>
+Dooley: Yes, the way ba... Wait... What did you just call me?
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: What? I called you Doodley, of course!
+
+<<set_color DialogueRunner green>>
+<<if $call_doodley>>
+Doodley: A-are you making fun of me? Even you, Athy?
+<<else>>
+Dooley: A-are you making fun of me? Even you, Athy?
+<<endif>>
+<<take_damage DialogueRunner 10>>
+
+<<set_color DialogueRunner blue>>
+Athy: What are you talking about? It's your name! Doodley!
+
+<<set_color DialogueRunner green>>
+Dooley: My name is Dooley, not Doodley!
+
+<<set_color DialogueRunner blue>>
+Athy: What are you talking about, Doodley! Even your favorite book, Space Adventures has Doodley on it!
+Athy: Look, it spells D-O-O-L-... Dooley? Your name is Dooley?
+<<take_damage DialogueRunner 5>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You call yourself his best friend but you don't even know his name?
+Mr. Guardian: Pathetic.
+
+<<set_color DialogueRunner green>>
+Dooley: What? Who is there?
+
+<<set_color DialogueRunner blue>>
+Athy: He's Mr. Guardian... He helped me find you... I'm sorry, Dooley!
+Athy: I don't know why I thought your name is Doodley... That's weird...
+Athy: But, whatever your name is, my feelings for you are real!
+Athy: I really wanted to find you! I want to go back to reality with you!
+Athy: Let's go back!
+
+<<set_color DialogueRunner green>>
+Dooley: Yes, let's go back together!
+<<else>>
+Athy: Yes! I really missed you, Dooley! Let’s go back to our world!
+Athy: We’ll be together forever! We need to find the way back!
+<<endif>>
+
+[[FinalBattle.Beginning]]
+===
+
+title: ShowDooley
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: I should show this to Doodley! Maybe he'll trust his own words!
+<<else>>
+Athy: I should show this to Dooley! Maybe he'll trust his own words!
+<<endif>>
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: DontShowDooley
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: This page will only make Doodley sad! I don't want to show it to him...
+<<else>>
+Athy: This page will only make Dooley sad! I don't want to show it to him...
+<<endif>>
+<<go_to_minigame DialogueRunner finalBattle>>
+===

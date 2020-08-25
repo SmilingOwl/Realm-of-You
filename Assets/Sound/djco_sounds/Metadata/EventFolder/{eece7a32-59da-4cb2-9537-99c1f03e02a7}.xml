@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EventFolder" id="{eece7a32-59da-4cb2-9537-99c1f03e02a7}">
+		<property name="name">
+			<value>RightPole</value>
+		</property>
+		<relationship name="folder">
+			<destination>{63529119-59da-4ce9-8a8e-b82fb04b0247}</destination>
+		</relationship>
+	</object>
+</objects>

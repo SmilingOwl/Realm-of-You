@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{271f29f3-c66a-4f7c-93f5-51a2776a7e1f}">
+		<property name="assetPath">
+			<value>pickitem.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2850340136054421</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81aca7cd-a215-42bf-826a-6dabf8204ffc}</destination>
+		</relationship>
+	</object>
+</objects>

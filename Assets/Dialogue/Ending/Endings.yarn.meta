@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: a84edf44d5879ac4f855856e57109e27
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Endings-Ending.AthyForgetsReality-0
+  - Endings-Ending.AthyForgetsReality-1
+  - Endings-Ending.AthyForgetsReality-2
+  - Endings-Ending.AthyForgetsReality-3
+  - Endings-Ending.AthyForgetsReality-4
+  - Endings-Ending.AthyForgetsReality-5
+  - Endings-Ending.AthyForgetsReality-6
+  - Endings-Ending.AthyForgetsReality-7
+  - Endings-Ending.AthyForgetsReality-8
+  - Endings-Ending.AthyForgetsReality-9
+  - Endings-Ending.AthyForgetsReality-10
+  - Endings-Ending.AthyForgetsReality-11
+  - Endings-Ending.AthyForgetsReality-12
+  - Endings-Ending.AthyForgetsReality-13
+  - Endings-Ending.AthyForgetsReality-14
+  - Endings-Ending.AthyForgetsReality-15
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

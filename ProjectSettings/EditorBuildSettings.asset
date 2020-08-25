@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 199efd1ed44198d40848c63ece1f840e
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ee1c0448180a0c149a750d82d84fb39f
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: a9553c8efd0c0c94d9c20b1f3e0d339c
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ee1c0448180a0c149a750d82d84fb39f
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: a9553c8efd0c0c94d9c20b1f3e0d339c
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Minigame1.unity
+    guid: 52a7111f070dcb545a76842fb0e45fa6
+  - enabled: 1
+    path: Assets/Scenes/Minigame2.unity
+    guid: 564d11943b34fcb4fbe7c105ada237ce
+  - enabled: 1
+    path: Assets/Scenes/Minigame3.unity
+    guid: 8492f3340e0941e4a99bfb924d77e56f
+  - enabled: 1
+    path: Assets/Scenes/Minigame4.unity
+    guid: 6fd302a14b03f6741a7ec140b1ffc3cb
+  - enabled: 1
+    path: Assets/Scenes/FinalBattle.unity
+    guid: 93504dda320d5f5478150318065e73ed
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: b97af26541965d142b0b492c4d336a10
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 75cf964ddb8a0834eae1b9b8bd37118a
+  m_configObjects: {}

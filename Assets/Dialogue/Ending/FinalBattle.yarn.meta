@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 941f0eb4a809fa04eb4a1f6b8e454e81
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - FinalBattle-FinalBattle-0
+  - FinalBattle-FinalBattle-1
+  - FinalBattle-FinalBattle-2
+  - FinalBattle-FinalBattle-3
+  - FinalBattle-FinalBattle-4
+  - FinalBattle-FinalBattle-5
+  - FinalBattle-FinalBattle-6
+  - FinalBattle-FinalBattle-7
+  - FinalBattle-FinalBattle-8
+  - FinalBattle-FinalBattle-9
+  - FinalBattle-FinalBattle-10
+  - FinalBattle-FinalBattle-11
+  - FinalBattle-FinalBattle-12
+  - FinalBattle-FinalBattle-13
+  - FinalBattle-FinalBattle-14
+  - FinalBattle-FinalBattle-15
+  - FinalBattle-FinalBattle-16
+  - FinalBattle-FinalBattle-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

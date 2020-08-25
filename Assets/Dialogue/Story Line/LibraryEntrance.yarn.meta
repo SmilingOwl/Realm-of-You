@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 884d49601bc568d44abd766e960e3627
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - LibraryEntrance-FindDoor-0
+  - LibraryEntrance-FindDoor-1
+  - LibraryEntrance-FindDoor-2
+  - LibraryEntrance-FindDoor-3
+  - LibraryEntrance-FindDoor-4
+  - LibraryEntrance-FindDoor-5
+  - LibraryEntrance-FindDoor-6
+  - LibraryEntrance-FindDoor-7
+  - LibraryEntrance-FindDoor-8
+  - LibraryEntrance-FindDoor-9
+  - LibraryEntrance-FindKey-10
+  - LibraryEntrance-AfterFindKey-11
+  - LibraryEntrance-OpenDoor-12
+  - LibraryEntrance-AfterFinalPage-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

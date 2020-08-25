@@ -1,0 +1,71 @@
+title: RealmOfYou
+---
+<<set_color DialogueRunner red>>
+Someone: Oh, she’s awake! Hello, little one!
+
+<<set_color DialogueRunner blue>>
+What? Where am I?
+
+<<set_color DialogueRunner red>>
+Someone: This is Realm of You, a world where dreams come true.
+
+<<set_color DialogueRunner blue>>
+Wh-Who are you?
+
+<<set_color DialogueRunner red>>
+Someone: I am the guardian of Realm of You. I protect this realm and those who enter it!
+Someone: Little lady, may I ask your name?
+
+<<set_color DialogueRunner blue>>
+Hello, Mr. Guardian! I’m Athanasia, but you can call me Athy!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Welcome to Realm of You, Athy!
+
+<<set_color DialogueRunner blue>>
+Athy: Wait, how did I get here? I was just in my garden and I fell...
+Athy: Dooley! Where’s Dooley?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dooley? Who is that?
+
+<<set_color DialogueRunner blue>>
+Athy: He’s my best friend! He must have fallen in here! Have you seen him?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: No, I haven’t seen anyone… Are you sure he fell here?
+
+<<set_color DialogueRunner blue>>
+Athy: He disappeared when I went to meet him! He must have fallen! I need to find him!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Then I shall help you, Athy!
+
+<<set_color DialogueRunner blue>>
+Athy: Thank you!
+<<wait 0.5>>
+Athy: Hmm, Mr. Guardian? What is that bar up there on the left? It’s floating!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh, it’s your sense of reali... YOU CAN SEE THAT?
+
+<<set_color DialogueRunner blue>>
+Athy: What? Why are you shouting Mr. Guardian?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Sorry, it’s nothing! So that bar is a measure of your nightmares!
+Mr. Guardian: The fuller it is, the more nightmares you’ll have when you’re sleeping...
+Mr. Guardian: Oh dear, it’s completely full, isn’t it? That’s no good!
+
+<<set_color DialogueRunner blue>>
+Athy: Oh no! What should I do? I hate nightmares!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: It’s ok, Athy! Realm of You will help you forget your reali... I mean, get rid of your nightmares!
+
+<<set_color DialogueRunner blue>>
+Athy: Wow! Thank you! Let’s go find Dooley, then!
+<<wait 0.5>>
+
+[[Tutorial]]
+===

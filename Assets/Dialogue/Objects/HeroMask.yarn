@@ -1,0 +1,16 @@
+title: HeroMask
+---
+<<set_color DialogueRunner blue>>
+Athy: Wow! This is a mask from the book Space Adventures!
+Athy: Dooley would love it! He's the biggest fan in the world of Space Adventures!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: It's just a toy... And one of the heavy ones.
+
+<<set_color DialogueRunner blue>>
+-> Pick up mask
+    <<set_variable DialogueRunner pickup_mask true>>
+    Athy: Hmm... Still, I think I'll take it! Dooley will love it!
+-> Leave mask
+	Athy: Maybe you are right... Maybe Dooley doesn't play with toys anymore...
+===

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{360285e4-71b2-4daa-94d1-a4d1f468fe0e}">
+		<property name="assetPath">
+			<value>MainTheme_string echos-002.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.6079999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81aca7cd-a215-42bf-826a-6dabf8204ffc}</destination>
+		</relationship>
+	</object>
+</objects>

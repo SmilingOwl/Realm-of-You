@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 3c01f3ba1ac368e4fad5404008a744d5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - VoodooDoll-VoodooDoll-0
+  - VoodooDoll-VoodooDoll-1
+  - VoodooDoll-VoodooDoll-2
+  - VoodooDoll-VoodooDoll-3
+  - VoodooDoll-VoodooDoll-4
+  - VoodooDoll-VoodooDoll-5
+  - VoodooDoll-VoodooDoll-6
+  - VoodooDoll-VoodooDoll-7
+  - VoodooDoll-VoodooDoll-8
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 3c01f3ba1ac368e4fad5404008a744d5,
+    type: 3}
+  localizations: []

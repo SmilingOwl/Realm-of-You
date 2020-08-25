@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{1d8c9a88-a762-4df2-93fc-272e0f7d589b}">
+		<property name="assetPath">
+			<value>MainTheme_FLAUTA____.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.951999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{81aca7cd-a215-42bf-826a-6dabf8204ffc}</destination>
+		</relationship>
+	</object>
+</objects>

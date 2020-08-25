@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: e96cc7965b5badc40a1d1bf2c9e44338
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Bullying-BeforeBullying-0
+  - Bullying-BeforeBullying-1
+  - Bullying-AfterBullying-2
+  - Bullying-AfterBullying-3
+  - Bullying-AfterBullying-4
+  - Bullying-AfterBullying-5
+  - Bullying-AfterBullying-6
+  - Bullying-AfterBullying-7
+  - Bullying-AfterMemoriesShooting-8
+  - Bullying-AfterMemoriesShooting-9
+  - Bullying-AfterMemoriesShooting-10
+  - Bullying-AfterMemoriesShooting-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

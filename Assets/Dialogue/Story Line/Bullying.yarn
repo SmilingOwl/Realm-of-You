@@ -1,0 +1,68 @@
+title: BeforeBullying
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: What did you pick up, Athy?
+
+<<set_color DialogueRunner blue>>
+Athy: It looks like the page of a diary...
+
+<<pickup_object DialogueRunner diary_page1>>
+[[AfterBullying]]
+===
+
+title: AfterBullying
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: This is from Doodley’s diary! He must have dropped it!
+Athy: Poor Doodley! That's why he was so sad...
+<<else>>
+Athy: This is from Dooley’s diary! He must have dropped it!
+Athy: Poor Dooley! That's why he was so sad...
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Look, there’s something on the back of the page!
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: You’re right, there are pictures here! These are Doodley's!
+<<else>>
+Athy: You’re right, there are pictures here! These are Dooley's!
+<<endif>>
+Athy: Some are happy, but others...
+Athy: I need to help him!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: And how will a girl so little like you help him?
+
+<<set_color DialogueRunner blue>>
+Athy: Hmm.. I will help him forget his bad memories!
+Athy: I’ll throw away the bad pictures and let only the good ones stay!
+Athy: That way he’ll only look at the good pictures and he’ll only remember good memories!
+
+<<go_to_minigame DialogueRunner minigame1>>
+===
+
+title: AfterMemoriesShooting
+---
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Hmpf! Is that all? Getting rid of bad pictures won’t stop the bullying!
+
+<<set_color DialogueRunner blue>>
+Athy: I just have to think a little more! I will help him for sure!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: We’ll see...
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: I wonder if there are more pages somewhere! They might guide me to Doodley!
+<<else>>
+Athy: I wonder if there are more pages somewhere! They might guide me to Dooley!
+<<endif>>
+
+<<go_to_minigame DialogueRunner exploration>>
+===

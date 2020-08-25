@@ -1,0 +1,46 @@
+title: Tutorial
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: By the way, Athy, there’s something on the floor next to you.
+<<go_to_minigame DialogueRunner exploration>>
+===
+
+title: Tutorial.Enforcement
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Aren’t you going to see what that object is?
+<<go_to_minigame DialogueRunner exploration>>
+===
+
+title: Tutorial.Options
+---
+<<set_variable DialogueRunner found_backpack true>>
+<<set_color DialogueRunner blue>>
+Athy: Oh, it’s my backpack! I dropped it when I fell here. Should I bring it with me?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: It’ll be tiring to carry it around... You should leave it!
+[[Pick up backpack|Tutorial.PickupBackpack]]
+[[Leave backpack|Tutorial.LeaveBackpack]]
+===
+
+title: Tutorial.LeaveBackpack
+---
+<<set_variable DialogueRunner pickup_backpack false>>
+<<set_color DialogueRunner blue>>
+Athy: You’re right, I’ll leave it here! Let’s go now, Mr. Guardian!
+
+<<start_counting DialogueRunner>>
+<<go_to_minigame DialogueRunner exploration>>
+===
+
+title: Tutorial.PickupBackpack
+---
+<<set_variable DialogueRunner pickup_backpack true>>
+<<set_color DialogueRunner blue>>
+Athy: I might need it, I’ll take it with me! Let’s go now, Mr. Guardian!
+
+<<pickup_object DialogueRunner backpack>>
+<<start_counting DialogueRunner>>
+<<go_to_minigame DialogueRunner exploration>>
+===

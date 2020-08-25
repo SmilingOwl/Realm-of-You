@@ -1,0 +1,24 @@
+title: Flower
+---
+<<set_color DialogueRunner blue>>
+Athy: Look! What a beautiful rose! Can I pick it up?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Yes! Everything in this world is yours!
+
+<<set_color DialogueRunner blue>>
+Athy: Really?! Thank you!
+
+<<set_color DialogueRunner blue>>
+-> Pick up flower
+    <<set_variable DialogueRunner pickup_rose true>>
+    <<pickup_object DialogueRunner rose>>
+    Athy: Ouch! I pricked my finger...
+    <<take_damage DialogueRunner 5>>
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: All roses have spikes! Beauty has its price...
+    <<go_to_minigame DialogueRunner exploration>>
+-> Leave flower
+    Athy: Oh, it has spikes! I shouldn't touch it! I don't want to get hurt...
+    <<go_to_minigame DialogueRunner exploration>>
+===

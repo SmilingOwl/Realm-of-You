@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{175e865a-993c-41e4-b7c4-bc77e34ff25f}">
+		<property name="name">
+			<value>Richness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{554794a7-c4dc-4fc8-a8a8-7287be68936b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cabd2bab-e7e5-4854-a608-2ef70e256a54}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cabd2bab-e7e5-4854-a608-2ef70e256a54}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

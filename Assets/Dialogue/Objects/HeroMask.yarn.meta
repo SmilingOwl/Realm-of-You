@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 425dbd31291d5fd4ebd408a9c30d1539
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - HeroMask-HeroMask-0
+  - HeroMask-HeroMask-1
+  - HeroMask-HeroMask-2
+  - HeroMask-HeroMask-3
+  - HeroMask-HeroMask-4
+  - HeroMask-HeroMask-5
+  - HeroMask-HeroMask-6
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 425dbd31291d5fd4ebd408a9c30d1539,
+    type: 3}
+  localizations: []

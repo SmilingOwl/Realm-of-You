@@ -1,0 +1,55 @@
+title: BallsAppear
+---
+
+<<set_color DialogueRunner blue>>
+Athy: Oh, look, Mr. Guardian, there's a football! How is it moving alone?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh, that is not a football! It's a dream eater!
+
+<<set_color DialogueRunner blue>>
+Athy: A dream eater?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dream eaters are really kind beings who wander around Realm of You!
+Mr. Guardian: They eat nightmares, so that the people in Realm of You have good dreams only!
+
+<<set_color DialogueRunner blue>>
+Athy: But why do they look like a football?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dream eaters materialize in the form of what they eat!
+Mr. Guardian: There must be someone in Realm of You who really hates football!
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Come to think of it... Doodley hates football!
+<<else>>
+Athy: Come to think of it... Dooley hates football!
+<<endif>>
+Athy: He falls a lot when playing football and the other kids make fun of him...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Then the dream eaters must have already eaten all his nightmares!
+Mr. Guardian: He'll never have a nightmare about that again!
+
+<<set_color DialogueRunner blue>>
+Athy: Really? I'm happy for him!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Anyway, Athy, you should try to get close to the dream eaters!
+Mr. Guardian: They trully are the kindest of creatures!
+Mr. Guardian: They will help you get rid of your nightmares for sure!
+
+<<set_color DialogueRunner blue>>
+Athy: Can I touch them?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Yes! They love being touched! Next time one passes by, try to touch it!
+Mr. Guardian: They'll make you forget your worst nightmares!
+
+<<set_color DialogueRunner blue>>
+Athy: Really!? I really want to touch one!
+
+<<go_to_minigame DialogueRunner exploration>>
+===

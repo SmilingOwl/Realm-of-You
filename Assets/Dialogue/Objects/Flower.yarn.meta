@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 12809ea8680517b49bfed54ebfa60c71
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Flower-Flower-0
+  - Flower-Flower-1
+  - Flower-Flower-2
+  - Flower-Flower-3
+  - Flower-Flower-4
+  - Flower-Flower-5
+  - Flower-Flower-6
+  - Flower-Flower-7
+  - Flower-Flower-8
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 12809ea8680517b49bfed54ebfa60c71,
+    type: 3}
+  localizations: []

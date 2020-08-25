@@ -1,0 +1,37 @@
+title: TeddyBear
+---
+<<set_color DialogueRunner blue>>
+Athy: This is Tommy! My Teddy bear!
+Athy: It has been in my bedroom since I was a baby, but I lost it the other day!
+Athy: How did it get here?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Aren’t you a bit old for teddy bears?
+
+<<set_color DialogueRunner blue>>
+-> You’re right!
+    Athy: Teddy bears are for little kids.. I’ll leave it here...
+    <<go_to_minigame DialogueRunner exploration>>
+-> You're wrong!
+    [[TeddyBear.Wrong]]
+===
+
+title: TeddyBear.Wrong
+---
+Athy: Liking teddy bears has nothing to do with age!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Won’t you be ashamed if people see you at this age with a teddy bear in hand?
+Mr. Guardian: I’m only thinking about what’s best for you! You should leave it!
+
+<<set_color DialogueRunner blue>>
+-> Leave Teddy Bear
+    Athy: Ok, I'll leave it! I didn’t even like it that much anyway...
+    <<go_to_minigame DialogueRunner exploration>>
+-> Pick up Teddy Bear
+    <<set_variable DialogueRunner pickup_teddy true>>
+    Athy: No, I'll take it with me! That way I’ll make sure I won’t lose it again!
+    <<take_damage DialogueRunner -10>>
+    <<pickup_object DialogueRunner teddy_bear>>
+    <<go_to_minigame DialogueRunner exploration>>
+===

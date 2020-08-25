@@ -1,0 +1,55 @@
+title: MommyPhoto
+---
+<<set_variable DialogueRunner found_mom_photo true>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: It's a picture of Doodley and his mom! How cute! They are smiling!
+<<else>>
+Athy: It's a picture of Dooley and his mom! How cute! They are smiling!
+<<endif>>
+
+<<set_color DialogueRunner red>>
+<<if $call_doodley>>
+Mr. Guardian: How cute? Have you forgotten what Doodley's parents are like? 
+<<else>>
+Mr. Guardian: How cute? Have you forgotten what Dooley's parents are like? 
+<<endif>>
+Mr. Guardian: Do you want your friend to remember their absent and violent parents?
+Mr. Guardian: What a good friend you are...
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: No, Doodley’s mom is kind! I know it! She really loves Doodley!
+<<else>>
+Athy: No, Dooley’s mom is kind! I know it! She really loves Dooley!
+<<endif>>
+Athy: When we were little she would always run to him whenever he fell and started crying!
+Athy: And she would even hug him until he stopped!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Have you seen any of them smiling lately? 
+Mr. Guardian: That picture is no longer a reality!
+<<if $call_doodley>>
+Mr. Guardian: It would hurt Doodley to see it!
+<<else>>
+Mr. Guardian: It would hurt Dooley to see it!
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+-> Pick up photo
+    <<set_variable DialogueRunner pickup_mom_photo true>>
+    <<if $call_doodley>>
+    Athy: You’re wrong! I’ll take this picture to remind Doodley that he has family who loves him!
+    <<else>>
+    Athy: You’re wrong! I’ll take this picture to remind Dooley that he has family who loves him!
+    <<endif>>
+    <<pickup_object DialogueRunner mom_photo>>
+-> Leave photo
+    Athy: You’re right, he’ll probably think that the picture will never be a reality again.
+    <<take_damage DialogueRunner 10>>
+    Athy: I’ll leave the photo here.
+    <<set_color DialogueRunner red>>
+   	Mr. Guardian: Good call!
+
+<<go_to_minigame DialogueRunner exploration>>
+===

@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 63551a0f9b6a3d049a13161e4d6efde5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Kittens-Kittens-0
+  - Kittens-Kittens-1
+  - Kittens-Kittens-2
+  - Kittens-Kittens-3
+  - Kittens-Kittens-4
+  - Kittens-Kittens-5
+  - Kittens-Kittens-6
+  - Kittens-Kittens-7
+  - Kittens-Kittens-8
+  - Kittens-Kittens-9
+  - Kittens-Kittens-10
+  - Kittens-Kittens-11
+  - Kittens-Kittens-12
+  - Kittens-Kittens-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 63551a0f9b6a3d049a13161e4d6efde5,
+    type: 3}
+  localizations: []

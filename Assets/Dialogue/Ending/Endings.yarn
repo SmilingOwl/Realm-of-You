@@ -1,0 +1,284 @@
+title: LoseReality
+---
+<<wait 1>>
+<<set_color DialogueRunner blue>>
+Athy: Oh, what was I doing?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Athy?
+
+<<set_color DialogueRunner blue>>
+Athy: You... Who are you, again?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You don't remember, Athy?
+
+<<set_color DialogueRunner blue>>
+Athy: Athy? Is that my name?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Yes! And you normally call me Mr. Guardian, as I am the guardian of your dreams!
+Mr. Guardian: Look at how beautiful this place is, how about we play for a bit, Athy?
+
+<<set_color DialogueRunner blue>>
+Athy: Play? Yes! Let's go play, Mr. Guardian! Hihihi!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Excelent.
+
+<<go_to_minigame DialogueRunner ending>>
+===
+
+title: Ending.AthyForgetsReality
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+Athy: Today is another beautiful day...
+Athy: I'm happy!
+Athy: The sky is blue. The grass is green.
+Athy: Everything is beautiful.
+Athy: I'm happy!
+Athy: And Mr. Guardian is always with me! I love Mr. Guardian!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: I love you, too, Athy! We're family!
+
+<<set_color DialogueRunner blue>>
+Athy: F-family? What is that? I can't remember...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh, it's a group of people who love each other! Just like us!
+
+<<set_color DialogueRunner blue>>
+Athy: Oh! We're family! Mr. Guardian, you're my one and only family!
+Athy: I feel sleepy, now...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You can go to sleep, Athy!
+
+<<set_color DialogueRunner blue>>
+Athy: But I want to keep playing!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: We can play once you wake up!
+
+<<set_color DialogueRunner blue>>
+Athy: Will you be there when I wake up, Mr. Guardian?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Of course, sweetheart!
+
+<<set_color DialogueRunner blue>>
+Athy: Good night, Mr. Guardian!
+
+<<set_image Image Ending/blackout>>
+<<wait 1>>
+<<set_color DialogueRunner red>>
+Mr. Guardian: Idiot.
+
+===
+
+title: Ending.BackToReality
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, me and Dooley have safely returned to reality!
+Athy: We woke up in my garden as if everything had been a dream.
+Athy: I even wondered if it really was a dream and if what I discovered was really true...
+Athy: But it wasn’t a dream...
+Athy: I looked at Dooley and I just new that everything that I discovered in Realm of You was the truth.
+Athy: Things couldn’t continue that way. As soon as I stood up, I grabbed Dooley and dragged him with me.
+Athy: We went to talk with my parents.
+Athy: We talked about the bullying, the violence,... Everything.
+Athy: A few days after that, the police came and arrested Dooley’s dad for domestic violence.
+Athy: In regards to school, Dooley came to my school and all my friends welcomed him with a open heart.
+Athy: Now, 5 years after, everytime I see Dooley, he’s smiling! And his mom looks way better than before. She looks younger every day!
+Athy: There were a few rough patches down the way, but Dooley is finally happy!
+Athy: Oh! And I forgot the best part! We’re dating! Hihi!
+
+<<wait 1>>
+Athy: Thank you!
+===
+
+title: Ending.BackToRealityTalkToDad
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, me and Dooley have safely returned to reality!
+Athy: We woke up in my garden as if everything had been a dream.
+Athy: I even wondered if it really was a dream and if what I discovered was really true...
+Athy: But it wasn’t a dream...
+Athy: I looked at Dooley and I just new that everything that I discovered in Realm of You was the truth.
+<<if $talk_to_bullies>>
+Athy: Things couldn’t continue that way. As soon as Monday came, I sneaked into Dooley's school to meet his bullies.
+Athy: I talked some sense into them and then left...
+Athy: That day, Dooley went home looking completely beaten up... He could barely stand!
+Athy: It was all my fault. I shouldn't have gone to talk to his bullies...
+Athy: I just wanted to help!
+Athy: At least, with that, Dooley's teacher noticed that he was being bullied.
+Athy: She talked to the school board and the bullies were expelled.
+<<else>>
+Athy: Things couldn’t continue that way. As soon as I stood up, I grabbed Dooley and dragged him with me.
+Athy: We went to talk with my parents.
+Athy: We talked about the bullying.
+Athy: A few days after that, Dooley was transferred to my school and all my friends welcomed him with a open heart.
+<<endif>>
+Athy: Dooley could finally rest at school!
+Athy: However, things at home continued the same.
+Athy: I decided to secretly speak with Dooley's dad and tell him that he was hurting Dooley.
+Athy: I know that Dooley told me not to do that, but I couldn't help it. I needed to do something.
+Athy: I should have listened to Dooley.
+Athy: On the day that I spoke to Dooley's dad, when Dooley got home from school...
+Athy: He witnessed his dad beating his mom...
+Athy: Dooley's dad was mad that I knew about their problems and he took it out on Dooley's mom.
+Athy: Dooley ran to his neighbours to call for help...
+Athy: When help arrived, his mom could no longer stand up by herself...
+Athy: She was sent to the hospital and Dooley's dad got arrested that night!
+Athy: I regret it so much... I shouldn't have talked to his dad.
+Athy: If I has just chosen to denounce him to the police, Dooley's mom wouldn't have been beaten up so badly!
+Athy: Dooley stayed by his mom's side the whole time...
+Athy: She had to go through physical therapy but after 2 months, she could walk again.
+Athy: Now both Dooley and his mom are starting to smile more!
+Athy: They look happier each day!
+Athy: I'm happy for them!
+
+===
+
+title: Ending.BackToRealityCherishDad
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, me and Dooley have safely returned to reality!
+Athy: We woke up in my garden as if everything had been a dream.
+Athy: I even wondered if it really was a dream and if what I discovered was really true...
+Athy: But it wasn’t a dream...
+Athy: I looked at Dooley and I just new that everything that I discovered in Realm of You was the truth.
+<<if $talk_to_bullies>>
+Athy: Things couldn’t continue that way. As soon as Monday came, I sneaked into Dooley's school to meet his bullies.
+Athy: I talked some sense into them and then left...
+Athy: That day, Dooley went home looking completely beaten up... He could barely stand!
+Athy: It was all my fault. I shouldn't have gone to talk to his bullies...
+Athy: I just wanted to help!
+Athy: At least, with that, Dooley's teacher noticed that he was being bullied.
+Athy: She talked to the school board and the bullies were expelled.
+<<else>>
+Athy: Things couldn’t continue that way. As soon as I stood up, I grabbed Dooley and dragged him with me.
+Athy: We went to talk with my parents.
+Athy: We talked about the bullying.
+Athy: A few days after that, Dooley was transferred to my school and all my friends welcomed him with a open heart.
+<<endif>>
+Athy: Dooley could finally rest at school!
+Athy: However, things at home continued the same.
+Athy: After a year, Dooley's mom disappeared.
+Athy: She left a letter saying that she loved Dooley, but she couldn't bear being abused any longer.
+Athy: She had no courage left to stay in her home and she ran away...
+Athy: After that incident, Dooley went to the police and denounced his dad.
+Athy: His dad was arrested for domestic violence.
+Athy: Dooley was left alone, without family... My parents welcomed him into the family.
+Athy: But he wasn't happy.
+Athy: I should never have told him to bear with his abusive dad.
+Athy: I should have denounced his dad to the police, before all of this happened.
+Athy: Now, Dooley will never be able to smile again...
+
+===
+
+title: Ending.BackToRealityStopFriendship
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, me and Dooley have safely returned to reality!
+Athy: We woke up in my garden as if everything had been a dream.
+Athy: I even wondered if it really was a dream and if what I discovered was really true...
+Athy: But it wasn’t a dream...
+Athy: I looked at Dooley and I just new that everything that I discovered in Realm of You was the truth.
+Athy: Things couldn’t continue that way. As soon as I stood up, I grabbed Dooley and dragged him with me.
+Athy: We went to talk with my parents.
+Athy: We talked about Dooley's dad and how he abused him and his mom.
+Athy: A few days after that, the police came and arrested Dooley’s dad for domestic violence.
+Athy: Dooley and his mom were finally happy!
+<<if $talk_to_bullies>>
+Athy: After that we only had to deal with his bullies!
+Athy: As soon as Monday came, I sneaked into Dooley's school to meet his bullies.
+Athy: I talked some sense into them and then left...
+Athy: That day, Dooley went home looking completely beaten up... He could barely stand!
+Athy: It was all my fault. I shouldn't have gone to talk to his bullies...
+Athy: I just wanted to help!
+Athy: At least, with that, Dooley's teacher noticed that he was being bullied.
+Athy: She talked to the school board and the bullies were expelled.
+<<else>>
+Athy: We also talked to my parents about the bullying.
+Athy: A few days after that, Dooley was transferred to my school and all my friends welcomed him with a open heart.
+<<endif>>
+Athy: Dooley could finally rest at school!
+Athy: A few months after that, Dooley started distancing himself from me...
+Athy: I think he was hurt about when I said that I'd stop being his friend.
+Athy: He found other friends to get along with.
+Athy: I also made other friends, so I'm ok with that!
+Athy: He looks happy, so I'm happy for him!
+
+===
+
+title: Ending.BackToRealityBullies
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, me and Dooley have safely returned to reality!
+Athy: We woke up in my garden as if everything had been a dream.
+Athy: I even wondered if it really was a dream and if what I discovered was really true...
+Athy: But it wasn’t a dream...
+Athy: I looked at Dooley and I just new that everything that I discovered in Realm of You was the truth.
+Athy: Things couldn’t continue that way. As soon as I stood up, I grabbed Dooley and dragged him with me.
+Athy: We went to talk with my parents.
+Athy: We talked about Dooley's dad and how he abused him and his mom.
+Athy: A few days after that, the police came and arrested Dooley’s dad for domestic violence.
+Athy: Dooley and his mom were finally happy!
+Athy: After that we only had to deal with his bullies!
+Athy: As soon as Monday came, I sneaked into Dooley's school to meet his bullies.
+Athy: I talked some sense into them and then left...
+Athy: That day, Dooley went home looking completely beaten up... He could barely stand!
+Athy: It was all my fault. I shouldn't have gone to talk to his bullies...
+Athy: I just wanted to help!
+Athy: At least, with that, Dooley's teacher noticed that he was being bullied.
+Athy: She talked to the school board and the bullies were expelled.
+Athy: Things are fine now...
+Athy: Every once in a while I see Dooley with a big smile on his face.
+Athy: He's finally happy!
+
+===
+
+title: Ending.LeaveDooley
+---
+<<set_image Image Ending/img1>>
+<<set_color DialogueRunner blue>>
+<<wait 2>>
+Athy: After fighting with Mr. Guardian, I came back to reality...
+Athy: My best friend was nowhere to be found.
+Athy: I went to his house, to his school, to the library... I went every place that he could be in...
+Athy: But he was no where...
+Athy: When I asked his mom about him, she looked at me weirdly and told me she never had a son...
+Athy: Her eyes were empty and it felt like she was sad...
+Athy: I went home after that... I couldn't believe that my best friend was gone!
+Athy: And no one remembers him, not even his own mother...
+Athy: Next to the bushes in the garden, I found Space Adventures, his favorite book!
+Athy: He must have sent it from Realm Of You, so that I can remember him!
+Athy: I'll always treasure it, I promise!
+Athy: Oh, his name on the book is a bit erased and smeared! I can't even read it!
+Athy: I should write it again, so I don't ever forget it!
+Athy: Ok! I have a pen! Just need to write his name!
+Athy: His name...
+Athy: Whose name did I need to write again?
+Athy: Oh, I'm going to write it on this book so it should be the name of the owner of the book, of course!
+Athy: To whom does this book belong to? I don't remember...
+Athy: Wait, isn't it mine? I mean, I found it in my garden after all! I must have been the one dropping it!
+Athy: But this is so worn down... I don't want a book like this!
+Athy: I'll throw it away! If I want to read this book, I'll just buy a new one!
+Athy: I feel weird for some reason... Like I'm forgetting something...
+Athy: It must be nothing... If it was important, I would definitely remember!
+Athy: I'm going to play now!
+
+===

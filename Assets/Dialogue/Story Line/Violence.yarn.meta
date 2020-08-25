@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: de5b7021e48f2b546b81f7f7d69335a0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Violence-BeforeViolence-0
+  - Violence-AfterViolence-1
+  - Violence-AfterViolence-2
+  - Violence-AfterViolence-3
+  - Violence-AfterViolence-4
+  - Violence-AfterViolence-5
+  - Violence-AfterViolence-6
+  - Violence-AfterViolence-7
+  - Violence-AfterDetectiveMission-8
+  - Violence-AfterDetectiveMission-9
+  - Violence-AfterDetectiveMission-10
+  - Violence-AfterDetectiveMission-11
+  - Violence-AfterDetectiveMission-12
+  - Violence-AfterDetectiveMission-13
+  - Violence-AfterDetectiveMission-14
+  - Violence-MistyPage-15
+  - Violence-MistyPage-16
+  - Violence-MistyPage-17
+  - Violence-MistyPage-18
+  - Violence-MistyPage-19
+  - Violence-MistyPage-20
+  - Violence-MistyPage-21
+  - Violence-AfterGlueWork-22
+  - Violence-AfterGlueWork-23
+  - Violence-AfterGlueWork-24
+  - Violence-AfterStoryPage-25
+  - Violence-AfterStoryPage-26
+  - Violence-AfterStoryPage-27
+  - Violence-AfterStoryPage-28
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

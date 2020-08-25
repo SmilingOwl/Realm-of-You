@@ -1,0 +1,50 @@
+title: MiniGame4.Intro
+---
+
+<<set_color DialogueRunner blue>>
+Athy: Ups, too late, Mr. Guardian!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Wait, what is this? What are these platforms, what did you think about?
+
+<<set_color DialogueRunner blue>>
+Athy: Oh, when I was thinking about the book, a memory came to mind!
+<<if $call_doodley>>
+Athy: Once, when Doodley was trying to get a book from the top shelf, he climbed it and fell!
+<<else>>
+Athy: Once, when Dooley was trying to get a book from the top shelf, he climbed it and fell!
+<<endif>>
+Athy: On top of that, the books on the shelf that he was grabbing fell on top of him!
+Athy: It was horrible!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You idiot! You even encourage your friend to do something so dangerous like climbing on shelves? That’s awful.
+
+<<set_color DialogueRunner blue>>
+Athy: But…
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: And on top of that, now we’re in this situation.
+Mr. Guardian: Look, there are books flying at you! How will you get the book now?
+
+<<set_color DialogueRunner blue>>
+Athy: I can do it! I’ll avoid the books!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You’re going to get hurt. Don’t!
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: But if I don’t, I’ll never be able to see Doodley.
+<<else>>
+Athy: But if I don’t, I’ll never be able to see Dooley.
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Isn’t that fine? He’s happy in here. I mean, this realm makes wishes come true!
+
+<<set_color DialogueRunner blue>>
+Athy: No! I want my best friend back! I’m going!
+
+<<go_to_minigame DialogueRunner minigame4>>
+===

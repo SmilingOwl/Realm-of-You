@@ -1,0 +1,225 @@
+title: BeforeViolence
+---
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Another diary page! I must be getting closer to Doodley!
+<<else>>
+Athy: Another diary page! I must be getting closer to Dooley!
+<<endif>>
+
+<<pickup_object DialogueRunner diary_page2>>
+[[AfterViolence]]
+===
+
+title: AfterViolence
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+Athy: Oh no, his daddy beats his mommy? I had no idea!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You didn’t know something so important like that?
+Mr. Guardian: And you call yourself his friend?
+
+<<set_color DialogueRunner blue>>
+Athy: I-I am his friend!
+Athy: I’ll prove it!
+<<if $call_doodley>>
+Athy: I’ll definitely find Doodley’s glasses and his mommy’s dress!
+<<else>>
+Athy: I’ll definitely find Dooley’s glasses and his mommy’s dress!
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: And how will you do that?
+Mr. Guardian: They are not even in this Realm!
+
+<<set_color DialogueRunner blue>>
+Athy: Doesn’t this world make wishes come true?
+Athy: I wish that the glasses and the dress appear in this realm!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: What!?
+
+<<set_color DialogueRunner blue>>
+Athy: See how smart I am? Now I just have to find them!
+
+<<go_to_minigame DialogueRunner minigame2>>
+===
+
+title: AfterDetectiveMission
+---
+
+<<set_color DialogueRunner blue>>
+<<if $found_glasses>>
+
+<<if $found_mom_dress>>
+Athy: See, Mr. Guardian? I found both of them!
+
+<<if $call_doodley>>
+Athy: Now I can give this dress to Doodley to give to his mommy and she’ll be happy!
+<<else>>
+Athy: Now I can give this dress to Dooley to give to his mommy and she’ll be happy!
+<<endif>>
+<<else>>
+Athy: Oh, I only found the glasses...
+<<set_color DialogueRunner red>>
+Mr. Guardian: See? You couldn't even find the dress!
+<<if $call_doodley>>
+Mr. Guardian: Doodley will be disappointed in you!
+<<else>>
+Mr. Guardian: Dooley will be disappointed in you!
+<<endif>>
+<<take_damage DialogueRunner 13>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: No! Even if it's only the glasses, I'm sure Doodley and his mom will be happy!
+<<else>>
+Athy: No! Even if it's only the glasses, I'm sure Dooley and his mom will be happy!
+<<endif>>
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You think that’s enough to make her happy?
+Mr. Guardian: What if his dad steals his mom’s things again?
+Mr. Guardian: You can’t fix anything by giving them those objects!
+
+<<set_color DialogueRunner blue>>
+Athy: You’re right… I’ll think about a solution...
+
+<<if $call_doodley>>
+Athy: Let me put on Doodley’s glasses, maybe they’ll make me smarter!
+<<else>>
+Athy: Let me put on Dooley’s glasses, maybe they’ll make me smarter!
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Are you an idiot? Glasses won’t make you smarter!
+
+<<set_color DialogueRunner blue>>
+Athy: Why are you always so grumpy, Mr. Guardian?
+Athy: Oh, I see something!
+Athy: I found another page!
+Athy: See, Mr. Guardian, not so stupid now, am I? Hihi!
+
+<<else>>
+<<if $found_mom_dress>>
+<<set_color DialogueRunner blue>>
+Athy: Oh, I only found the dress...
+<<set_color DialogueRunner red>>
+Mr. Guardian: See? You couldn't even find the glasses!
+<<if $call_doodley>>
+Mr. Guardian: Doodley will be disappointed in you!
+<<else>>
+Mr. Guardian: Dooley will be disappointed in you!
+<<endif>>
+<<take_damage DialogueRunner 13>>
+<<else>>
+<<set_color DialogueRunner red>>
+Mr. Guardian: Ahah! You couldn't find any of the objects!
+<<if $call_doodley>>
+Mr. Guardian: Doodley will be disappointed in you!
+<<else>>
+Mr. Guardian: Dooley will be disappointed in you!
+<<endif>>
+<<take_damage DialogueRunner 26>>
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: Oh no! I shouldn't have thought about the trash bins...
+Athy: I-I didn't do it on purpose...
+<<if $call_doodley>>
+Athy: I'm so sorry, Doodley, if only I were smarter...
+<<else>>
+Athy: I'm so sorry, Dooley, if only I were smarter...
+<<endif>>
+
+<<set_color DialogueRunner red>>
+<<if $call_doodley>>
+Mr. Guardian: Ahah! Perhaps if you had glasses like Doodley you would be smarter!
+<<else>>
+Mr. Guardian: Ahah! Perhaps if you had glasses like Dooley you would be smarter!
+<<endif>>
+Mr. Guardian: You can't even see that pag...
+Mr. Guardian: You know what, let's keep walking Athy!
+Mr. Guardian: C'mon quickly! Or else we won't find your friend!
+
+<<set_color DialogueRunner blue>>
+Athy: Wait, Mr. Guardian!
+Athy: Why are you in such a hurry all of a sudden?
+Athy: Oh, wait! I see another page!
+<<endif>>
+ <<add_diary_page DialogueRunner DiaryPage3>>
+[[MistyPage]]
+===
+
+title: MistyPage
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+Athy: Oh, I remember Misty! She was really cute!
+Athy: Hmmm... The pieces of Misty’s photo are also here!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh? You knew she disappeared?
+<<if $call_doodley>>
+Mr. Guardian: Did you help Doodley find his kitten, then?
+<<else>>
+Mr. Guardian: Did you help Dooley find his kitten, then?
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: No... I hugged him and waited for Misty’s return!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You couldn’t even help him look for the poor kitten?
+Mr. Guardian: Seriously, what a friend you are...
+
+<<set_color DialogueRunner blue>>
+Athy: Oh no! You’re right! I could have helped him look for her!
+Athy: I’ll make up for it!
+<<if $call_doodley>>
+Athy: I’ll put these pieces back together and return the picture to Doodley!
+<<else>>
+Athy: I’ll put these pieces back together and return the picture to Dooley!
+<<endif>>
+
+<<go_to_minigame DialogueRunner minigame3>>
+===
+
+title: AfterGlueWork
+---
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: I did it! Doodley will be so happy!
+<<else>>
+Athy: I did it! Dooley will be so happy!
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: There’s something in the back of the picture.
+
+<<set_color DialogueRunner blue>>
+Athy: You’re right!
+
+ <<add_diary_page DialogueRunner DiaryPage4>>
+[[AfterStoryPage]]
+===
+
+title: AfterStoryPage
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+Athy: He really loves books!
+Athy: Wait, if in this world wishes come true, does that mean he’s inside a library, right now?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Perhaps! If that was his wish...
+
+<<set_color DialogueRunner blue>>
+Athy: I need to find a library!
+
+<<go_to_minigame DialogueRunner exploration>>
+===

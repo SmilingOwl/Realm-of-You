@@ -1,0 +1,108 @@
+title: LookDoor
+---
+<<set_color DialogueRunner blue>>
+Athy: Oh, it's a door! Hmm, it's closed...
+
+<<go_to_minigame DialogueRunner exploration>>
+===
+
+title: FindDoor
+---
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: There’s a door... This door is surrounded by books! Doodley must be in there!
+<<else>>
+Athy: There’s a door... This door is surrounded by books! Dooley must be in there!
+<<endif>>
+Athy: I can’t open it, I need to find the key!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: This world makes wishes come true.
+<<if $call_doodley>>
+Mr. Guardian: Doodley wished to be locked inside in order to quietly read his books without anyone bothering him...
+<<else>>
+Mr. Guardian: Dooley wished to be locked inside in order to quietly read his books without anyone bothering him...
+<<endif>>
+Mr. Guardian: Only he knows where the key is… You’ll never be able to find it.
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: There must be a way! Doodley! Doodley, can you hear me?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Doodley wanted a quiet space to read!
+<<else>>
+Athy: There must be a way! Dooley! Dooley, can you hear me?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dooley wanted a quiet space to read!
+<<endif>>
+
+Mr. Guardian: This door doesn’t let anything through, not even a sound! He can’t hear you!
+
+<<set_color DialogueRunner blue>>
+Athy: Shut up! Let me think! Oh, there’s something under the door...
+<<if $call_doodley>>
+Athy: Is that... A part of Doodley’s diary! It might have a clue!
+<<else>>
+Athy: Is that... A part of Dooley’s diary! It might have a clue!
+<<endif>>
+
+<<add_diary_page DialogueRunner DiaryPage5>>
+[[FindKey]]
+===
+
+title: FindKey
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Oh, Doodley’s favorite book! I remember! Doodley told me where he hides it!
+<<else>>
+Athy: Oh, Dooley’s favorite book! I remember! Dooley told me where he hides it!
+<<endif>>
+Athy: It’s usually on top of the book shelf in his room!
+Athy: Ok, imagination time! I need to bring the book to Realm of You!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh please, do not bring the book shelf! Think only about the book!
+
+<<go_to_minigame DialogueRunner minigame4>>
+===
+
+title: AfterFindKey
+---
+
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Here it is! The key really is inside! Doodley, I’m coming!
+<<else>>
+Athy: Here it is! The key really is inside! Dooley, I’m coming!
+<<endif>>
+
+<<go_to_minigame DialogueRunner exploration>>
+===
+
+title: OpenDoor
+---
+
+<<set_color DialogueRunner blue>>
+Athy: Ups, I stepped on something...
+Athy: Another diary page?
+
+<<add_diary_page DialogueRunner DiaryPage6>>
+[[AfterFinalPage]]
+===
+
+title: AfterFinalPage
+---
+<<wait 2>>
+<<set_color DialogueRunner blue>>
+<<if $call_doodley>>
+Athy: Doodley... Me too! I want to be with you!
+<<else>>
+Athy: Dooley... Me too! I want to be with you!
+<<endif>>
+
+<<go_to_minigame DialogueRunner exploration>>
+===

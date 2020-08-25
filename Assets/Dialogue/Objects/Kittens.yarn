@@ -1,0 +1,30 @@
+title: Kittens
+---
+
+<<set_color DialogueRunner blue>>
+Athy: Awww! Look! So many kittens!
+Athy: Why are so many kittens here?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Here all Dooley's wishes are real!
+Mr. Guardian: It looks like your friend loves cats!
+Mr. Guardian: Why don't you surprise Dooley and bring him a kitten as a gift? 
+Mr. Guardian: Look at the yellow one over there!
+Mr. Guardian: Looks like Misty don't you think?
+
+<<set_color DialogueRunner blue>>
+-> Pick up kitten
+    <<set_variable DialogueRunner pickup_kitten true>>
+    Athy: Yes, you are right! Reminds me of Misty! It’s so cute!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Dooley will love your gift!
+-> Leave kitten
+    Athy: Misty was a tabby kitten not yellow! 
+    Athy: Besides, these kittens aren't real, right?
+    Athy: They are just Dooley’s imagination!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: If you say so...
+    <<set_color DialogueRunner blue>>
+    Athy: Don’t worry! I'll find a real cute kitten to give to Dooley!
+    Athy: Please don't tell him! It’s a surprise!
+===

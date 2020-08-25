@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 1ab256466d022d148a58b25d96fcf2ef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - MommyPhoto-MommyPhoto-0
+  - MommyPhoto-MommyPhoto-1
+  - MommyPhoto-MommyPhoto-2
+  - MommyPhoto-MommyPhoto-3
+  - MommyPhoto-MommyPhoto-4
+  - MommyPhoto-MommyPhoto-5
+  - MommyPhoto-MommyPhoto-6
+  - MommyPhoto-MommyPhoto-7
+  - MommyPhoto-MommyPhoto-8
+  - MommyPhoto-MommyPhoto-9
+  - MommyPhoto-MommyPhoto-10
+  - MommyPhoto-MommyPhoto-11
+  - MommyPhoto-MommyPhoto-12
+  - MommyPhoto-MommyPhoto-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 1ab256466d022d148a58b25d96fcf2ef,
+    type: 3}
+  localizations: []

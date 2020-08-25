@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: f94ea1b3c22b0f241a3fd6d00cd715f8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - HairRibbon-HairRibbon-0
+  - HairRibbon-HairRibbon-1
+  - HairRibbon-HairRibbon-2
+  - HairRibbon-HairRibbon-3
+  - HairRibbon-HairRibbon-4
+  - HairRibbon-HairRibbon-5
+  - HairRibbon-HairRibbon-6
+  - HairRibbon-HairRibbon-7
+  - HairRibbon-HairRibbon-8
+  - HairRibbon-HairRibbon-9
+  - HairRibbon-HairRibbon-10
+  - HairRibbon-HairRibbon-11
+  - HairRibbon-HairRibbon-12
+  - HairRibbon-HairRibbon-13
+  - HairRibbon-HairRibbon-14
+  - HairRibbon-HairRibbon-15
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: f94ea1b3c22b0f241a3fd6d00cd715f8,
+    type: 3}
+  localizations: []

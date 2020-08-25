@@ -1,0 +1,50 @@
+title: VoodooDoll
+---
+<<set_color DialogueRunner blue>>
+Athy: A doll! How cute!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: These dolls are quite special! They can’t move or talk, but they’re alive!
+Mr. Guardian: If you tie a part of your hair to a needle and pierce the doll in the heart, it will show you your deepest desires!
+Mr. Guardian: It might even help you find your friend, if that’s what your heart most desperately wants!
+
+<<set_color DialogueRunner blue>>
+-> Don't pierce doll
+    Athy: I don’t want to hurt the poor doll!
+    Athy: I’ll find him by myself!
+    <<pickup_object DialogueRunner voodoo_doll>>
+    <<go_to_minigame DialogueRunner exploration>>
+-> Pierce doll
+    Athy: Yes, I'll do that! It's just a doll anyway!
+    [[VoodooDoll.Pierce]]
+===
+
+title: VoodooDoll.Pierce
+---
+<<take_damage DialogueRunner 10>>
+Athy: Ouch! My heart hurt for a bit!
+Athy: Nothing happened! Where’s my best friend?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Well, if it didn’t show you the way, then perhaps that wasn’t what you truly wanted.
+Mr. Guardian: Perhaps, deep down, you don’t really care about your friend.
+
+<<set_color DialogueRunner blue>>
+Athy: No! You’re wrong! I care for him!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Are you completely sure that you care about Doodley?
+
+<<set_color DialogueRunner blue>>
+-> Yes
+    Athy: Yes, of course I care for Doodley!
+    <<take_damage DialogueRunner 10>>
+    <<set_variable DialogueRunner call_doodley true>>
+    <<pickup_object DialogueRunner voodoo_doll>>
+    <<go_to_minigame DialogueRunner exploration>>
+-> No
+    Athy: No, who’s Doodley? My best friend is called Dooley!
+    <<pickup_object DialogueRunner voodoo_doll>>
+    <<go_to_minigame DialogueRunner exploration>>
+
+===

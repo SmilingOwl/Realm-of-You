@@ -1,0 +1,59 @@
+title: HairRibbon
+---
+<<set_variable DialogueRunner found_ribbon true>>
+<<set_color DialogueRunner blue>>
+Athy: My ribbon! I thought I had lost it!
+<<if $call_doodley>>
+Athy: It was a birthday gift from Doodley!
+<<else>>
+Athy: It was a birthday gift from Dooley!
+<<endif>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: A birthday gift from your best friend and you lost it?
+Mr. Guardian: You probably don’t really care about him...
+
+<<set_color DialogueRunner blue>>
+Athy: Of course I do! I lost it by accident!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: That’s because you didn’t treasure it enough!
+<<if $call_doodley>>
+Mr. Guardian: That must be why Doodley has been so sad lately...
+<<else>>
+Mr. Guardian: That must be why Dooley has been so sad lately...
+<<endif>>
+Mr. Guardian: Poor him... He must think his best friend doesn’t care about him.
+
+<<set_color DialogueRunner blue>>
+-> It’s just a ribbon, it doesn’t matter.
+    Athy: No one would get hurt by something like this.
+    <<take_damage DialogueRunner 10>>
+-> Oh no, I may have hurt him.
+    Athy: I should have taken better care of it!
+    Athy: I’ll do something to make it up to him!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Oh really? And what are you gonna do?
+    <<set_color DialogueRunner blue>>
+    -> Pick up ribbon
+        <<set_variable DialogueRunner pickup_ribbon true>>
+        <<if $call_doodley>>
+        Athy: I’ll show the ribbon to Doodley to show him that it is important to me!
+        <<else>>
+        Athy: I’ll show the ribbon to Dooley to show him that it is important to me!
+        <<endif>>
+        Athy: And I’ll apologize for not taking better care of it!
+        <<pickup_object DialogueRunner ribbon>>
+    -> Leave ribbon
+        Athy: I’ll never talk of the ribbon again!
+        <<if $call_doodley>>
+        Athy: Doodley will forget about it eventually!
+        <<else>>
+        Athy: Dooley will forget about it eventually!
+        <<endif>>
+        <<take_damage DialogueRunner 10>>
+        <<set_color DialogueRunner red>>
+        Mr. Guardian: Good choice!
+
+<<go_to_minigame DialogueRunner exploration>>
+===

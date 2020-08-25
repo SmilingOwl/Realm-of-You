@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e4ab8bc8cf2a7684faa03406d63b2748
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Ball-Balls-0
+  - Ball-Balls-1
+  - Ball-Balls-2
+  - Ball-Balls-3
+  - Ball-Balls-4
+  - Ball-Balls-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

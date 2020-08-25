@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: cd12f41639ff0004cabd280800486551
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-GB
+  stringIDs:
+  - Candy-Candy-0
+  - Candy-Candy-1
+  - Candy-Candy-2
+  - Candy-Candy-3
+  - Candy-Candy-4
+  - Candy-Candy-5
+  - Candy-Candy-6
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: cd12f41639ff0004cabd280800486551,
+    type: 3}
+  localizations: []

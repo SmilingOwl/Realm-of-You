@@ -1,0 +1,25 @@
+title: Candy
+---
+<<set_color DialogueRunner blue>>
+Athy: Wow! I had never seen so many candies together and with so many colors!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You can eat it if you want!
+Mr. Guardian: Your friend must love candies too!
+
+<<set_color DialogueRunner blue>>
+-> Pick up candy
+    <<set_variable DialogueRunner pickup_candy true>>
+    Athy: He does! I'll take some to Dooley!
+    <<pickup_object DialogueRunner candy>>
+    <<go_to_minigame DialogueRunner exploration>>
+-> Leave candy
+	[[Candy.Leave]]
+===
+
+title: Candy.Leave
+---
+Athy: No... I'll leave the candy here...
+Athy: Mommy always says that candies are bad for the teeth!
+<<go_to_minigame DialogueRunner exploration>>
+===

@@ -1,0 +1,685 @@
+title: FinalBattle.Beginning
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: You’re leaving?
+
+<<if $call_doodley>>
+Mr. Guardian: After everything you’ve been through in the real world, you want to go back?
+Mr. Guardian: You don’t like Realm Of You?
+<<else>>
+<<set_color DialogueRunner green>>
+Dooley: What? Who is there?
+
+<<set_color DialogueRunner blue>>
+Athy: He's Mr. Guardian... He helped me find you...
+Mr. Guardian: After everything you’ve been through in the real world, you want to go back?
+Mr. Guardian: You don’t like Realm Of You?
+<<endif>>
+
+<<set_color DialogueRunner blue>>
+Athy: Of course we do! It has many things we love, but...
+Athy: It’s not real! None of this is real! We want to go back!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Go back? Did you forget, Athy? Reality is packed with problems!
+Mr. Guardian: Hasn't Dooley suffered enough?
+Mr. Guardian: You want to stay here, right, Dooley?
+
+<<set_color DialogueRunner green>>
+Dooley: I-I... I don't know...
+
+<<set_color DialogueRunner blue>>
+Athy: Dooley! We need to go back! Please, listen to me!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You can be happy here, Dooley! Just stay!
+
+<<set_color DialogueRunner blue>>
+Athy: Stop that, Mr. Guardian! Dooley is coming with me!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: No, he's staying here! Where he can be happy!
+
+<<set_color DialogueRunner blue>>
+Athy: As Dooley's best friend, he'll listen to me!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Stop pretending you're his friend. You clearly don't care about Dooley's happiness!
+Mr. Guardian: Dooley can only be happy here! His problems will always haunt him if he goes back!
+Mr. Guardian: Why can't you understand that, Athy?
+Mr. Guardian: Let me remind you of all the problems that await in reality!
+
+<<show_poles DialogueRunner>>
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: FinalBattle.FamilyProblemsPt1
+---
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dooley, you don’t really want to go back to your family, do you?
+Mr. Guardian: Your family has mistreated you!
+Mr. Guardian: Do you even have anyone you can trust in your family?
+
+<<set_color DialogueRunner green>>
+Dooley: M-My mommy?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Your mom? She can’t even stand up to your dad! She can’t help you!
+Mr. Guardian: The only reason she endured all these years with your dad, isn’t that because of you? You’re a burden on her!
+
+<<set_color DialogueRunner green>>
+Dooley: I-I’m a b-burden?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Yes! As long as you’re there, she’ll continue being treated badly by your dad.
+Mr. Guardian: She’ll never be free! She’ll never smile again if she’s with you!
+
+<<set_color DialogueRunner green>>
+Dooley: You’re right... If I don’t go to her, she can leave daddy and be happy.
+Dooley: She won’t be happy with me around.
+<<take_damage DialogueRunner 10>>
+
+<<set_color DialogueRunner blue>>
+Athy: No! You’re wrong! Your mommy loves you! She won’t be happy if you disappear!
+
+<<set_color DialogueRunner green>>
+Dooley: I was with her and she wasn’t happy.
+Dooley: At least without me she can leave Daddy and find happiness.
+
+<<set_color DialogueRunner blue>>
+<<if $found_mom_photo>>
+
+<<if $pickup_mom_photo>>
+Athy: Is there anything I can use to prove to Dooley that his mommy can smile with him by his side?
+-> Yes
+    [[FinalBattle.ShowMomPhoto]]
+-> No
+    <<go_to_minigame DialogueRunner finalBattle>>
+<<else>>
+Athy: Your mommy can smile when she’s with you! I saw a picture on my way! Isn’t that right, Mr. Guardian?
+
+<<set_color DialogueRunner red>>
+N: I don’t know what you’re talking about...
+
+<<set_color DialogueRunner green>>
+Dooley: I really should stay...
+<<take_damage DialogueRunner 10>>
+<<go_to_minigame DialogueRunner finalBattle>>
+
+<<endif>>
+
+<<else>>
+
+Athy: No, Dooley! Don’t think that way!
+Athy: I feel so powerless!
+
+<<go_to_minigame DialogueRunner finalBattle>>
+<<endif>>
+===
+
+title: FinalBattle.ShowMomPhoto
+---
+<<set_color DialogueRunner blue>>
+Athy: That's right! I found a picture of you and your mom! Both of you were smiling!
+Athy: You can definitely go back to those times! I’ll help you!
+
+<<set_color DialogueRunner green>>
+Dooley: Oh, you’re right... There was a time when mommy was happy with me!
+<<take_damage DialogueRunner -20>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: How long ago was that? Things have changed since then, haven’t they, Dooley?
+Mr. Guardian: You won’t be able to go back to these times...
+
+<<set_color DialogueRunner green>>
+Dooley: Is it really not possible to go back to those times?
+<<take_damage DialogueRunner 10>>
+
+<<set_color DialogueRunner blue>>
+Athy: Of course it is!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Athy, reality is not so simple that the mere wish of wanting something will make it come true.
+Mr. Guardian: C’mon Dooley, you must know this better than anyone.
+
+<<set_color DialogueRunner green>>
+Dooley: ...
+
+<<set_color DialogueRunner blue>>
+Athy: (Oh no, if this goes on like this, Dooley will want to stay here... What can I say?)
+
+[[Dooley, listen to me. Your mommy loves you, she’ll only be happy with you there!|ConvinceDooleyMommyLovesHim]]
+[[Dooley, even if your mommy doesn’t want you, you can come to my house. I’ll be with you!|ConvinceDooleyFail]]
+===
+
+title: ConvinceDooleyMommyLovesHim
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: No. She’ll only be happy if you’re not there.
+Mr. Guardian: Search your feelings, Dooley. You know it to be true.
+
+<<set_color DialogueRunner green>>
+Dooley: My feelings? I... I... Mommy... I want my mommy!
+
+<<set_color DialogueRunner blue>>
+Athy: Let’s go back to reality, Dooley! Let’s go back to your mommy, ok?
+
+<<set_color DialogueRunner green>>
+Dooley: Ok...
+<<take_damage DialogueRunner -10>>
+
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: ConvinceDooleyFail
+---
+<<set_color DialogueRunner green>>
+Dooley: I... I don’t want that... I... I want my Mommy!
+
+<<set_color DialogueRunner blue>>
+Athy: Then... Then, we’ll go to her, ok?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Foolish girl... You just acknowledged that Dooley's mom my not want him back!
+
+<<set_color DialogueRunner blue>>
+Athy: I was just trying to make him feel better, even if his mom is not there, I still am!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Dooley is still a child! He needs his mom!
+Mr. Guardian: In reality you don't want Dooley to go back to his mom, do you?
+Mr. Guardian: You just want him to be with you, so you can play with him.
+Mr. Guardian: Dooley is not your toy! He's better off staying here than going with you!
+
+<<set_color DialogueRunner green>>
+Dooley: At least I'll be happy here!
+<<take_damage DialogueRunner 10>>
+
+<<set_color DialogueRunner blue>>
+Athy: No, Dooley! I promise that you and your mom will be happy once we go back! Believe me!
+
+<<set_color DialogueRunner green>>
+Dooley: I don't know...
+
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: FinalBattle.FamilyProblemsPt2
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Athy, what’s so hard to understand?
+Mr. Guardian: Dooley will only be happy if his mommy is happy.
+Mr. Guardian: His mommy will be happy once she gets free from his daddy.
+Mr. Guardian: If Dooley doesn’t return, she can do that.
+Mr. Guardian: She’ll be happy. Problem solved.
+
+<<set_color DialogueRunner green>>
+Dooley: He’s right. That’s the only way mommy can really be happy.
+<<take_damage DialogueRunner 10>>
+
+<<set_color DialogueRunner blue>>
+Athy: No! We can solve this problem! Definitely!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: How silly! If it was so easy to solve, Dooley and his mom wouldn’t have suffered all these years!
+Mr. Guardian: What do you plan to do?
+
+[[I’ll talk with his daddy! Deep down he must love his family, I’m sure he will hear us out.|FinalBattle.TalkWithDaddy]]
+[[With Dooley’s and his mommy’s testimony we can denounce his daddy to the police!|FinalBattle.DenounceDaddy]]
+===
+
+title: FinalBattle.TalkWithDaddy
+---
+<<take_damage DialogueRunner 20>>
+<<set_variable DialogueRunner talk_to_dad true>>
+<<set_color DialogueRunner green>>
+Dooley: No, Athy! What if he hits you? He’s much stronger than us, he could even kill us!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You’re right, Dooley! That will never solve anything!
+
+<<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: FinalBattle.DenounceDaddy
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Testimony? A child’s testimony? Don’t make me laugh!
+
+<<set_color DialogueRunner green>>
+Dooley: The police are stronger than daddy, they can take him away!
+<<take_damage DialogueRunner -15>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: And you’re going to tell on your parent to the police?
+Mr. Guardian: He might have mistreated you but isn’t he still family?
+Mr. Guardian: Is that really the right thing to do?
+
+<<set_color DialogueRunner blue>>
+-> No, family is the most important!
+    Athy: No matter what, Dooley, your daddy will always be your daddy.
+    Athy: You and your mommy should bear with him.
+    <<set_color DialogueRunner green>>
+    Dooley: I don’t want that!
+    Dooley: If me and mommy have to bear with him once I go back to reality, it’s better if I just stay here!
+    <<take_damage DialogueRunner 15>>
+    <<set_variable DialogueRunner cherish_dad true>>
+    <<go_to_minigame DialogueRunner finalBattle>>
+-> Yes, someone who hits Dooley can’t be called his family!
+    Athy: Family are those who support and love each other.
+    Athy: Dooley’s daddy cannot be family. Not right now!
+    <<take_damage DialogueRunner -15>>
+    <<go_to_minigame DialogueRunner finalBattle>>
+===
+
+title: FinalBattle.Bullying
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Then how about school?
+Mr. Guardian: Are you going to put Dooley back into that hell where he gets beaten up by bullies?
+Mr. Guardian: How are you going to protect him from all of that?
+
+<<set_color DialogueRunner red>>
+-> I’ll speak with an adult that can help him!
+    Mr. Guardian: An adult? What adult?
+    Mr.Guardian: His parents who neglect him and don’t do anything even when they notice his bruises?
+    <<set_color DialogueRunner blue>>
+    Athy: No, I’ll tell my parents! They love Dooley, they will definitely help him!
+    <<set_color DialogueRunner green>>
+    Dooley: No, I don't want them to know!
+    <<set_color DialogueRunner blue>>
+    Athy: Why, Dooley? They’re on your side, they’ll definitely help!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: See, Dooley! Even though you call her your best friend, she can't even understand your worries!
+    Mr. Guardian: She can’t understand the embarrassment, the humiliation, the fear of being looked down upon!
+    <<set_color DialogueRunner blue>>
+    Athy: Humiliation? What are you even talking about?
+    Athy: There’s no such thing as humiliation or embarrassment when it comes to family!
+    <<set_color DialogueRunner green>>
+    Dooley: F-family? Me?
+    <<set_color DialogueRunner blue>>
+    Athy: Of course, silly! My parents love you so much, they treat as if you’re their son!
+    Athy: You haven’t noticed that? My dad doesn’t cook gourmet meals for just anyone!
+    Athy: Remember how he always cooks your favorite food whenever you come over for dinner? 
+    Athy: He never did that for any other of my friends! You’re special!
+    <<set_color DialogueRunner green>>
+    Dooley: I am special? Really?
+    <<set_color DialogueRunner blue>>
+    Athy: Yes! You’re practically family! So, let’s talk to them, ok?
+    <<set_color DialogueRunner green>>
+    Dooley: Yes! Thank you, Athy!
+    <<take_damage DialogueRunner -20>>
+    <<go_to_minigame DialogueRunner finalBattle>>
+-> I’ll go to his school and talk some sense into his bullies!
+    <<take_damage DialogueRunner 10>>
+    Mr. Guardian: Pfft! That’s your best idea Athy? They will never listen to you!
+    <<set_variable DialogueRunner talk_to_bullies true>>
+    <<set_color DialogueRunner green>>
+    Dooley: He’s right! Athy, don’t ever do that!
+    <<go_to_minigame DialogueRunner finalBattle>>
+
+===
+
+title: FinalBattle.AthyPt1
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Alright. Then how about you, Athy?
+Mr. Guardian: How do you solve the problem of you being an awful friend?
+
+<<set_color DialogueRunner blue>>
+Athy: Me?
+
+<<set_color DialogueRunner green>>
+Dooley: Athy isn’t awful! She’s a great friend!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Oh, really?
+Mr. Guardian: She even threw away the ribbon you gave her on her birthday!
+
+<<set_color DialogueRunner green>>
+Dooley: What?
+
+<<set_color DialogueRunner blue>>
+Athy: I didn’t throw it away! I lost it! I’m sorry, Dooley.
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You hear that, Dooley?
+Mr. Guardian: It was a precious gift given by you, her so-called best friend, and she lost it!
+Mr. Guardian: Are you sure you can survive in a reality when even your best friend doesn’t love you?
+
+<<set_color DialogueRunner green>>
+Dooley: A-Athy? You don't like me?
+<<take_damage DialogueRunner 10>>
+
+<<if $found_ribbon>>
+<<if $pickup_ribbon>>
+
+<<set_color DialogueRunner blue>>
+Athy: Is there anything I can use to prove to Dooley that I treasure him and the ribbon he gave me?
+[[Yes|FinalBattle.ShowRibbon]]
+[[No|FinalBattle.AthyPt2]]
+
+<<else>>
+<<set_color DialogueRunner blue>>
+Athy: Of course I do!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You even dropped it when we found it earlier...
+
+<<set_color DialogueRunner green>>
+Dooley: Is that true, Athy?
+
+<<set_color DialogueRunner blue>>
+Athy: Yes...
+<<take_damage DialogueRunner 10>>
+[[FinalBattle.AthyPt2]]
+
+<<endif>>
+<<else>>
+
+<<set_color DialogueRunner blue>>
+Athy: That’s not true! I do like you, Dooley!
+[[FinalBattle.AthyPt2]]
+<<endif>>
+===
+
+title: FinalBattle.ShowRibbon
+---
+<<set_color DialogueRunner blue>>
+Athy: Look, Dooley! I have the ribbon you gave me!
+Athy: I’m so sorry that I lost it but I found it and I’ll never lose it again, I promise!
+
+<<set_color DialogueRunner green>>
+Dooley: But even if you have that... I can’t believe you lost it...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: A true friend would treasure your gift and always cherish it!
+Mr. Guardian: Losing the ribbon Dooley gave you...
+Mr. Guardian: That doesn’t look like something a true friend would do, does it, Dooley?
+
+<<set_color DialogueRunner green>>
+Dooley: No, it really doesn't...
+
+<<set_color DialogueRunner blue>>
+Athy: Oh no! What should I say?
+[[Dooley also lost the friendship bracelet I gave him a year ago! I should remind him of that!|FinalBattle.BringUpBracelet]]
+[[I should just apologize again, I must have really hurt him...|FinalBattle.ApologizeAgain]]
+
+===
+
+title: FinalBattle.BringUpBracelet
+---
+<<set_color DialogueRunner blue>>
+Athy: Dooley, last year you also lost the friendship bracelet I gave you! Now, we’re even!
+<<take_damage DialogueRunner 15>>
+
+<<set_color DialogueRunner green>>
+Dooley: B-but, after losing it, I spent the whole week after that looking for it in the street and at school and everywhere else!
+Dooley: You were the one who forgave me and told me to stop looking!
+Dooley: You told me it was alright!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: How petty of you, Athy! Bringing up ancient history that was resolved already... Really petty!
+
+<<set_color DialogueRunner green>>
+Dooley: That’s right, Athy… That was already resolved, there was no need for you to say that...
+
+<<set_color DialogueRunner blue>>
+Athy: No, Dooley, don’t be mad! I’m sorry!
+Athy: I made a mistake! I’ll never bring it up again! Please, forgive me...
+
+<<set_color DialogueRunner green>>
+Dooley: Alright... But don’t bring it up ever again, ok?
+
+<<set_color DialogueRunner blue>>
+Athy: Ok...
+
+[[FinalBattle.AthyPt2]]
+===
+
+title: FinalBattle.ApologizeAgain
+---
+<<set_color DialogueRunner blue>>
+Athy: I’m so sorry, Dooley! I should have searched harder for the ribbon when I lost it.
+Athy: I shouldn’t even have lost it! I made a mistake!
+Athy: But that doesn’t mean I don’t care for you! I do! I promise!
+
+<<set_color DialogueRunner green>>
+Dooley: Will you promise to never lose that ribbon again?
+
+<<set_color DialogueRunner blue>>
+Athy: I promise! With all my heart, I promise!
+<<take_damage DialogueRunner -15>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Don’t believe her, Dooley! Those are just empty words...
+
+<<set_color DialogueRunner green>>
+Dooley: No, they’re not. Athy is serious! I know it, after all, I am her best friend!
+Dooley: Athy, I believe in you!
+
+<<set_color DialogueRunner blue>>
+Athy: Thank you, Dooley!
+
+[[FinalBattle.AthyPt2]]
+===
+
+title: FinalBattle.AthyPt2
+---
+<<set_color DialogueRunner red>>
+Mr. Guardian: Think about it, Dooley.
+Mr. Guardian: She spent years without even realizing how much you were suffering!
+Mr. Guardian: All those years without doing anything and even noticing that something was wrong...
+Mr. Guardian: What kind of friend is that?
+
+<<set_color DialogueRunner green>>
+Dooley: B-but I was hiding my pain from her...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: And is that what friends do? Hide things from each other?
+Mr. Guardian: It was hard to bring it up, wasn’t it?
+Mr. Guardian: In reality, you wished she noticed herself and help you, but she never did...
+Mr. Guardian: Do you really want a friend like that?
+
+<<set_color DialogueRunner green>>
+Dooley: I-I do...
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Really? Even though she was by your side all those years, she wasn’t really by your side, was she?
+Mr. Guardian: Well Athy, what can you do for Dooley, from now on, as a friend?
+
+<<set_color DialogueRunner blue>>
+-> I promise to always be by his side!
+    Athy: Dooley, I’m sorry I wasn’t there for you when you needed me!
+    Athy: From now on, no matter what happens, I’ll always be here for you! 
+    Athy: I’ll listen to every single one of your problems and we’ll find a solution, together!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Do you really think that's enough?
+    <<check_dooley_being_convinced DialogueRunner>>
+    <<if $dooley_being_convinced>>
+    <<set_color DialogueRunner blue>>
+    Athy: If it isn’t, then… I’ll do anything! I’ll solve all Dooley’s problems!
+    Athy: And if I can’t solve them I’ll even run away with him!
+    Athy: I’ll leave everything I have in search for a happiness with Dooley!
+    <<set_color DialogueRunner green>>
+    Dooley: Athy! Thank you! But you don’t need to do any of that.
+    Dooley: I don’t need you to solve all my problems... I don’t need you to leave your life for me...
+    Dooley: Just... Just stay by my side and I’ll be just fine!
+    <<set_color DialogueRunner blue>>
+    Athy: Of course I will, Dooley! Forever...
+    <<take_damage DialogueRunner -100>>
+    <<else>>
+    <<set_color DialogueRunner green>>
+    Dooley: It is more than enough! Thank you, Athy!
+    <<take_damage DialogueRunner -10>>
+    <<endif>>
+    [[FinalBattle.Finale]]
+-> I’ll stop being his friend!
+    <<set_variable DialogueRunner stop_friendship true>>
+    Athy: You’re right... I’m not worthy of being his friend!
+    Athy: I will leave him so that he can find a better friend than me.
+    <<take_damage DialogueRunner 20>>
+    <<set_color DialogueRunner green>>
+    Dooley: You’ll stop being friends with me?
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: I’m disappointed in you Athy... What you said proves just how little you actually care for Dooley...
+    <<set_color DialogueRunner blue>>
+    Athy: No! I care for him! That’s why I’m willing to step down! So he can be happy!
+    <<take_damage DialogueRunner 20>>
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Forget it, Athy... You’ve shown your true colors. You don’t care for Dooley.
+    <<set_color DialogueRunner blue>>
+    Athy: No! Dooley, you understand, right? That I’d only do this for the sake of your happiness!
+    <<set_color DialogueRunner green>>
+    Dooley: Athy, perhaps you didn’t realize this, but...
+    Dooley: You’re the only reason I could hang on to reality for as long as I did without going insane.
+    Dooley: Dealing with my dad, my bullies, every single problematic detail of my life... It was too much. 
+    Dooley: No one deserves to experience what I went through...
+    Dooley: But the reason I could still stand on my feet every single day... The reason I could still look up and face reality...
+    Dooley: It was because I had a friend who cared for me. A friend who loved me and gave me strength...
+    Dooley: It was because you were there, Athy.
+    Dooley: I really, really thought that you were so dear to me... I feel so stupid now...
+    Dooley: To think you’d even consider giving up our friendship... I’m an idiot for believing you actually cared for me...
+    <<set_color DialogueRunner blue>>
+    Athy: Dooley, I... I care for you! I’m only willing to give up this friendship to make you feel better!
+    <<take_damage DialogueRunner 20>>
+    <<set_color DialogueRunner green>>
+    Dooley: That would never make me feel better. A true friend would know that.
+    Dooley: Forget it. I’m tired of this. I just want to forget everything.
+    Dooley: Athy, go back to reality, go back to your friends, family, whatever... 
+    Dooley: Go back to your happy life. I’ll stay here and build my own happiness here.
+    <<set_color DialogueRunner blue>>
+    Athy: No, Dooley, I don’t want to go back without you!
+    <<set_color DialogueRunner green>>
+    Dooley: Just go... I don’t can’t even look at you anymore...
+    Dooley: Mr. Guardian, can you take her back to reality? 
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Yes, Dooley. As you wish!
+    <<set_color DialogueRunner green>>
+    Dooley: Goodbye, Athy... Just forget about me and be happy. I’ll do the same.
+    <<set_color DialogueRunner blue>>
+    Athy: No! Noooooooo!
+    <<set_ending DialogueRunner Ending.LeaveDooley>>
+===
+
+title: FinalBattle.Finale
+---
+<<check_dooley_stays DialogueRunner>>
+
+<<if $dooley_stays>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Athy, you’re so stubborn!
+
+<<set_color DialogueRunner blue>>
+Athy: No, Mr. Guardian! You’re the one being stubborn! Why don’t you let Dooley go back?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Because he’ll never be happy in reality!
+
+<<set_color DialogueRunner blue>>
+Athy: You don’t know that!
+
+<<set_color DialogueRunner green>>
+Dooley: Stop! I have decided...
+Dooley: I’ll stay here. You go back by yourself, Athy!
+Dooley: I’ll be alright here... I’ll be happy... So, go back to your family and also be happy!
+Dooley: That’s the best thing to do!
+
+<<set_color DialogueRunner blue>>
+Athy: But Dooley, won’t you miss your mom?
+
+<<set_color DialogueRunner green>>
+Dooley: I will, but... This is for the best. She’ll be alright, I know it.
+
+<<set_color DialogueRunner blue>>
+Athy: B-but, what about your friends?
+
+<<set_color DialogueRunner green>>
+Dooley: I have no friends.
+
+<<set_color DialogueRunner blue>>
+Athy: Y-you idiot! You have me! What about me?
+
+<<set_color DialogueRunner green>>
+Dooley: You’ll be alright, you have friends and family who love you... You’re going to be fine, even without me!
+
+<<set_color DialogueRunner blue>>
+Athy: No, Dooley! I won’t go back without you! If you want to stay, I'll stay here with you!
+
+<<set_color DialogueRunner green>>
+Dooley: You have to go back! Your family is waiting for you! Mr. Guardian, can you make Athy go back?
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Is that what you really want?
+
+<<set_color DialogueRunner green>>
+Dooley: Yes!
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: Then, your wish is my command!
+
+<<set_color DialogueRunner blue>>
+Athy: Wait! No! Don’t make me go by myself!
+
+<<set_color DialogueRunner green>>
+Dooley: Athy, don’t worry! It’s going to be alright!
+
+<<set_color DialogueRunner blue>>
+Athy: W-what is?
+
+<<set_color DialogueRunner green>>
+Dooley: Everything!
+Dooley: Goodbye, Athy! I’ll always remember you!
+
+<<set_color DialogueRunner blue>>
+Athy: No, Dooley! Noooooo!
+
+<<set_ending DialogueRunner Ending.LeaveDooley>>
+
+<<else>>
+
+<<set_color DialogueRunner red>>
+Mr. Guardian: You’re so stubborn!
+Mr. Guardian: Then what about all the other problems that can happen in the real world?
+Mr. Guardian: What if you come across unimaginable problems that you can’t solve?
+Mr. Guardian: In Realm of You, you’ll escape all your problems! You’ll be happy forever!
+
+-> I’ll ignore the problem until it disappears! I’ll read a book to forget it!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: You silly girl, you say that but you still want to go back?
+    Mr. Guardian: Realm of You is the perfect place to forget about your problems!
+    Mr. Guardian: That’s what Dooley has been doing all along!
+    <<set_color DialogueRunner blue>>
+    Athy: But we can also do that in reality! It’s better to go back! Right, Dooley?
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Oh, you innocent child… Do you really think it’s so easy to ignore problems as serious as Dooley’s?
+    Mr. Guardian: That is only possible when you’re far away and nothing can remind you of your problems!
+    Mr. Guardian: That is only possible in Realm of You!
+    <<set_color DialogueRunner blue>>
+    Athy: No, but...
+    <<set_color DialogueRunner green>>
+    Dooley: Yes, you’re right Athy, I should forget my problems so I can be happy!
+    Dooley: I should stay here!
+    <<set_color DialogueRunner blue>>
+    Athy: No, Dooley, that’s not what I meant! We should still go back!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: If you’re so eager to go back, Athy, you can go back by yourself!
+    Mr. Guardian: I’ll stay here with Dooley and make sure he’s happy!
+    Mr. Guardian: We’ll have lots of fun here, right Dooley?
+    <<set_color DialogueRunner green>>
+    Dooley: Yes!
+    <<set_color DialogueRunner red>>
+    Mr. Guardian: Goodbye, Athy!
+    <<set_color DialogueRunner green>>
+    Dooley: Bye bye!
+    <<set_color DialogueRunner blue>>
+    Athy: No! Noooooooo!
+    <<set_ending DialogueRunner Ending.LeaveDooley>>
+-> We can’t solve anything by running away!
+    <<set_color DialogueRunner blue>>
+    Athy: No matter how hard it is, we need to face our problems! To face reality!
+    <<set_ending DialogueRunner GoBack>>
+<<endif>>
+===

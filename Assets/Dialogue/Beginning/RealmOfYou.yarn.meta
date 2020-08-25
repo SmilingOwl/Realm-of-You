@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: ddc094bf752e8294b90c544979b517d9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - RealmOfYou-RealmOfYou-0
+  - RealmOfYou-RealmOfYou-1
+  - RealmOfYou-RealmOfYou-2
+  - RealmOfYou-RealmOfYou-3
+  - RealmOfYou-RealmOfYou-4
+  - RealmOfYou-RealmOfYou-5
+  - RealmOfYou-RealmOfYou-6
+  - RealmOfYou-RealmOfYou-7
+  - RealmOfYou-RealmOfYou-8
+  - RealmOfYou-RealmOfYou-9
+  - RealmOfYou-RealmOfYou-10
+  - RealmOfYou-RealmOfYou-11
+  - RealmOfYou-RealmOfYou-12
+  - RealmOfYou-RealmOfYou-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

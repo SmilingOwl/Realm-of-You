@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{b3369a89-9398-4d4f-8d41-4de986cb704e}">
+		<property name="name">
+			<value>MiniGamesAmbient</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c531c9b5-7224-4975-a502-2063009f35f6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d88e0251-d356-45ef-9cdc-b5ee0d13dbd2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{cf86146e-236c-4eaa-9471-cf945495dea4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c531c9b5-7224-4975-a502-2063009f35f6}">
+		<relationship name="effects">
+			<destination>{ffe1e940-6ded-42e0-a5c9-2e42336d1cc7}</destination>
+			<destination>{d48150d9-9185-4fee-baca-a0e4890e901b}</destination>
+			<destination>{0fe4bcb6-9426-4ac9-a82e-894d75797c4d}</destination>
+			<destination>{099d97e0-da7b-4044-a473-29aeb4f7f6d7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d88e0251-d356-45ef-9cdc-b5ee0d13dbd2}" />
+	<object class="MixerBusFader" id="{ffe1e940-6ded-42e0-a5c9-2e42336d1cc7}" />
+	<object class="ThreeEQEffect" id="{d48150d9-9185-4fee-baca-a0e4890e901b}" />
+	<object class="Sidechain" id="{0fe4bcb6-9426-4ac9-a82e-894d75797c4d}" />
+	<object class="CompressorEffect" id="{099d97e0-da7b-4044-a473-29aeb4f7f6d7}">
+		<property name="threshold">
+			<value>-35.5</value>
+		</property>
+		<property name="attackTime">
+			<value>6.5999999</value>
+		</property>
+		<property name="releaseTime">
+			<value>720</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{b6158ba9-eb34-4f23-8a2d-a9761fa8af77}</destination>
+		</relationship>
+	</object>
+</objects>
