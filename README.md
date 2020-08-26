@@ -37,4 +37,4 @@ For more information, consult the [Game Design Document](https://github.com/Smil
 ![image3](https://github.com/SmilingOwl/Realm-of-You/blob/master/screenshots/3.png)
 <br>
 
-## [Promotional video](https://www.youtube.com/watch?v=xvSDhrXddv)
+## [Promotional video](https://youtu.be/xvSDhrXddvA)
