@@ -20,7 +20,8 @@
 ## Target Audience
 **Realm Of You** is targeted for players from any gender and over the age of 12.
 
-For more information, consult the Game Design Document!
+For more information, consult the [Game Design Document](https://github.com/SmilingOwl/Realm-of-You/blob/master/Game%20Design%20Document.pdf).
+
 
 ## Screenhots
 
